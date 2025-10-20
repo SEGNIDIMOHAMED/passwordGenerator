@@ -1,0 +1,94 @@
+/* Complete the CSS styling according to the provided design
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h1 {
+    color: goldenrod;
+    
+}
+
+#message-el {
+    font-style: italic;
+}
+
+
+button{
+    background-color: goldenrod;
+    color:#016f32;
+    width:250px;
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+
+ */
+
+body{
+    font-family: karla;
+      font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+    
+    font-size: larger;
+    margin-left: 50px;
+
+}
+h1{
+    color:#273549;
+     font-family: karla;
+      font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+   
+}
+span{
+    color: #10B981;
+}
+p{
+    color: #6B7280;
+}
+button{
+    background-color: #10B981;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius:5px;
+    width:200px;
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.container-password button{
+    width:200px;
+    background-color:#273549 ;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #5DEF92;
+    padding: 15px 15px;
+    text-align: center;
+}
+.container-password{
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+    
+    
+}
+
+
